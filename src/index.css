@@ -1,0 +1,110 @@
+@import url("https://fonts.cdnfonts.com/css/one-piece");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: url("./assets/bg.jpg") center;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "One Piece", sans-serif;
+}
+
+.card-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid #693506;
+  border-radius: 5px;
+  background-color: #f3f3e7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: block;
+  background-color: #693506;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 0 0 10px;
+  text-align: center;
+  color: #393000;
+}
+
+.card-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #693506;
+}
+
+.card-button:focus {
+  outline: none;
+}
+
+.card-info-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.card-info {
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 30px;
+  }
+}
