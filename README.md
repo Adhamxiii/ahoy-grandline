@@ -36,10 +36,15 @@ The data for the FAQ is provided in the `onePieceData.js` file, which includes a
 
 This project was created as a simple example of a FAQ viewer using React. It is not affiliated with the official One Piece brand or its creators.
 
-## Contact Information
+## Contributing
 
-If you have any questions or need assistance, you can reach out to the project author:
+Feel free to contribute to this project. If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
-- Email: [Adham Nasser](mailto:adhamxiii@gmail.com)
-- LinkedIn: [Adham Nasser](https://www.linkedin.com/in/adham-nasser-xiii/)
-- GitHub: [Adham Nasser](https://github.com/Adham-XIII)
+## Contact Me
+
+If you have any questions or suggestions, feel free to contact me:
+
+- GitHub: [Adham Nasser](https://github.com/Adhamxiii)
+- Linkedin: [Adham Nasser](https://www.linkedin.com/in/adhamnasser/)
+
+Happy coding!🚀
